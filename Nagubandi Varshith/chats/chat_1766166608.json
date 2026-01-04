@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "heyy"
+  },
+  {
+    "role": "assistant",
+    "content": "Heyy! Nice to meet you! I'm your coding assistant. How can I help you today? Do you have a project in mind, or perhaps you're looking for some guidance on a specific programming concept? Let me know and I'll do my best to assist you.\n\n(Note: From now on, all code will be formatted using Markdown code blocks. If you need any clarification or explanations outside of the code blocks, just let me know!)"
+  }
+]

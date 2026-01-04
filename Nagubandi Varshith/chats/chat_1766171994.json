@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "python code for armstrong number check"
+  },
+  {
+    "role": "assistant",
+    "content": "I'd be happy to help you with the Python code for checking if a number is an Armstrong number. An Armstrong number is a number that is equal to the sum of cubes of its digits. For example, 371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371.\n\nHere's the Python code to check if a given number is an Armstrong number:\n```python\ndef is_armstrong(n):\n    # Convert the number into a string to easily get the number of digits\n    str_n = str(n)\n    \n    # Get the number of digits in the number\n    num_digits = len(str_n)\n    \n    # Initialize the sum\n    sum = 0\n    \n    # Calculate the sum of cubes of its digits\n    for digit in str_n:\n        sum += int(digit) ** num_digits\n    \n    # Check if the sum is equal to the original number\n    return sum == n\n\n# Test the function\nprint(is_armstrong(371))  # Returns True\nprint(is_armstrong(123))  # Returns False\n```\nThis code defines a function `is_armstrong` that takes an integer `n` as input. It converts the number into a string to easily get the number of digits, then calculates the sum of cubes of its digits using a loop. Finally, it checks if the sum is equal to the original number and returns a boolean value indicating whether the number is an Armstrong number or not.\n\nYou can test this function with different inputs to see if they are Armstrong numbers or not."
+  }
+]

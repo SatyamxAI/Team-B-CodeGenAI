@@ -1,0 +1,8 @@
+streamlit
+requests
+streamlit-webrtc
+openai-whisper
+pytesseract
+pillow
+torch
+opencv-python
